@@ -746,6 +746,7 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--white);
+    margin-bottom: 24px;
 }
 .email-footer-input::placeholder {
 font-family: var(--font-family);
@@ -802,5 +803,7 @@ font-family: var(--font-family);
     align-items: center;
     display: flex;
 }
-
+.container-form-footer {
+    margin-left: 80px;
+}
 
