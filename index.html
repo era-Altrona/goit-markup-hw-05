@@ -64,15 +64,16 @@
         </div>
         <div class="Backdrop is-open">
           <div class="modal">
+            <button type="button" class="modal-close-btn">
+              <svg class="close-icon" width="8" height="8">
+                <use href="./images/icons.svg#close-btn"></use>
+              </svg>
+            </button>
             <form class="order-form">
-              <button type="button" class="modal-close-btn">
-                <svg class="close-icon" width="8" height="8">
-                  <use href="./images/icons.svg#close-btn"></use>
-                </svg>
-              </button>
               <p class="title-modal">
                 Leave your contacts and we will call you back
               </p>
+
               <div class="form-wrapper-cont">
                 <label class="modal-form-label" for="user-name">Name</label>
                 <div class="modal-cont-input">
@@ -562,6 +563,33 @@
             </li>
           </ul>
         </div>
+      </div>
+      <div class="container-form-footer">
+        <p class="title-form-footer">Subsribe</p>
+        <form class="form-footer">
+          <label
+            class="footer-label"
+            id="subsribe"
+            for="form-email-footer"
+            name="subsribe"
+          >
+            <input
+              type="text"
+              class="email-footer-input"
+              type="email"
+              id="user-email-footer"
+              name="user-email-footer"
+              placeholder="E-mail"
+              required
+            />
+          </label>
+          <button type="submit" class="submit-footer">
+            Subscribe
+            <svg class="icon-form-btn" width="24" height="24">
+              <use href="./images/icons.svg#send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
